@@ -15,8 +15,10 @@ public class Main {
     }
     public static void main(String[] args) {
         B b = new B();
-        b.meth();
-        B b1 = new B();
-        b1.meth();
+       String s =  b.meth();
+       System.out.println(s);
+
+       String s1 = b.meth();
+        System.out.println(s1);
     }
 }
